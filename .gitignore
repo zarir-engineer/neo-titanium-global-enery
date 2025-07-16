@@ -1,0 +1,29 @@
+# Jekyll specific
+_site/
+.sass-cache/
+.jekyll-cache/
+.bundle/
+vendor/
+
+# Ruby
+*.gem
+*.rbc
+.ruby-version
+.rvmrc
+
+# Logs and temp
+*.log
+*.tmp
+*.swp
+*.DS_Store
+*.bak
+
+# System files
+Thumbs.db
+ehthumbs.db
+
+# Editor folders
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
