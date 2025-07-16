@@ -1,7 +1,7 @@
 title: Neo TITANIUM GLOBAL ENERGY
 description: >- 
   Static website for Neo Titanium Global Energy with services, team, projects, and partner info.
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: "/neo-titanium-global-enery"
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 
 theme: minima
