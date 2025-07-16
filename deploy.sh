@@ -4,8 +4,8 @@
 # Exit on error
 set -e
 
-echo "🔄 Checking out source branch: feature/sample-01"
-git checkout feature/sample-01
+#echo "🔄 Checking out source branch: feature/sample-01"
+#git checkout feature/sample-01
 
 echo "🏗 Building site with Jekyll..."
 bundle exec jekyll build
