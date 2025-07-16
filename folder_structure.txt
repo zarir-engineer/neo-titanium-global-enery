@@ -1,0 +1,18 @@
+neo-titanium-global-enery/
+├── _config.yml
+├── Gemfile
+├── _layouts/
+│   └── default.html
+├── _includes/
+│   └── header.html
+│   └── footer.html
+├── assets/
+│   └── images/
+│       └── (your PNGs)
+├── index.md
+├── about.md
+├── services.md
+├── projects.md
+├── team.md
+├── partners.md
+└── vendor/              # created by `bundle install --path vendor/bundle`

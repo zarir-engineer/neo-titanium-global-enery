@@ -1,0 +1,114 @@
+.hero {
+  position: relative;
+  width: 100%;
+  height: 500px; /* ⬅️ Adjust height as needed */
+  overflow: hidden;
+}
+
+.hero-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;     /* ⬅️ This keeps it full-width and cropped nicely */
+  display: block;
+}
+
+/* Navbar floats on top */
+.navbar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  padding: 20px 40px;
+  background: rgba(0, 0, 0, 0.0); /* Transparent background */
+  color: white;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 90px; /* space between logo and nav links */
+  z-index: 10;
+  border-bottom: 2px solid rgba(255, 255, 255, 0.6);;
+}
+
+.navbar-inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 20px 20px; /* bottom padding slightly less than before */
+  border-bottom: 2px solid white;
+  box-sizing: border-box;
+  margin: 0 30px;                  /* 👈 This creates space from the edges */
+  gap: 100px; /* 👈 This is your spacer */
+}
+
+.logo {
+  font-weight: bold;
+  font-size: 27px;
+  color: white;
+  margin-top: 10px;
+  margin-left: 20px; /* or padding-left */
+}
+
+.logo-text {
+  font-size: 22px;             /* ⬅️ Try 24px or 28px if you want it big */
+  font-weight: 700;            /* ⬅️ Bold — use 800 or 900 for heavier */
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+  letter-spacing: 0.5px;
+  margin-left: 12px;           /* ⬅️ Space between image and text */
+  white-space: nowrap;         /* ⬅️ Keep it from wrapping on small screens */
+
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 7px;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-links li a {
+  font-size: 30px;       /* ⬅️ Increase this to your desired size */
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 6px 12px;
+  transition: background 0.3s;
+}
+
+.nav-links li a:hover {
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 4px;
+}
+
+.who-we-are {
+  background-color: black;
+  color: white;
+  padding: 80px 20px;
+  text-align: center;
+}
+
+.who-we-are h2 {
+  font-size: 48px;
+  font-weight: 900;
+  letter-spacing: 2px;
+  margin-bottom: 30px;
+}
+
+.who-we-are p {
+  max-width: 900px;
+  margin: 0 auto;
+  font-size: 18px;
+  line-height: 1.6;
+  color: #e0e0e0;
+}
+
+.section-divider {
+  margin-top: 60px;
+  border: none;
+  border-top: 1px solid white;
+  width: 90%;
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+}
