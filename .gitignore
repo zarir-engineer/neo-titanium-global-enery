@@ -27,3 +27,4 @@ ehthumbs.db
 .idea/
 *.sublime-workspace
 *.sublime-project
+_site/feed.xml
