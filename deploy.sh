@@ -6,7 +6,7 @@ set -e
 
 #echo "🔄 Checking out source branch: feature/sample-01"
 #git checkout feature/sample-01
-
+echo "🚀 Current branch should be feature/sample-01, 🔄 commit and push completed"
 echo "🏗 Building site with Jekyll..."
 bundle exec jekyll build
 
@@ -16,7 +16,6 @@ mkdir -p /tmp/gh-deploy
 cp -r _site/* /tmp/gh-deploy/
 
 echo "🚀 Switching to gh-pages branch..."
-git stash push -m "Temp stash _site change"
 git checkout gh-pages
 
 echo "🧹 Cleaning gh-pages branch..."
