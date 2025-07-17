@@ -6,7 +6,7 @@ set -e
 
 #echo "🔄 Checking out source branch: feature/sample-01"
 #git checkout feature/sample-01
-
+echo "🚀 Current branch should be feature/sample-01, 🔄 commit and push completed"
 echo "🏗 Building site with Jekyll..."
 bundle exec jekyll build
 
