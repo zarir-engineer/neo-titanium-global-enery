@@ -1,0 +1,30 @@
+/* 🧱 Main container for both left and right columns */
+.services-section {
+  display: flex;               /* side-by-side layout */
+  flex-wrap: wrap;             /* wrap on small screens */
+  gap: 40px;                   /* spacing between left and right */
+  padding: 40px 20px;          /* outer padding */
+  justify-content: space-between; /* space between columns */
+}
+
+/* 👈 Left content: the intro paragraph */
+.services-left {
+  flex: 1 1 45%;               /* takes about 45% of width */
+  min-width: 300px;
+}
+
+/* 👉 Right content: the detailed services */
+.services-right {
+  flex: 1 1 45%;
+  min-width: 300px;
+  font-size: 16px;             /* readable font size */
+  line-height: 1.6;            /* space between lines */
+}
+
+/* 🔠 Section heading style */
+.services-left h2 {
+  font-size: 32px;
+  font-weight: 800;
+  letter-spacing: 1px;
+  margin-bottom: 16px;
+}
