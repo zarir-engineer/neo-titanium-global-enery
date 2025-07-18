@@ -1,0 +1,36 @@
+/* 🧱 This is the outer container holding both left and right sections */
+.projects-section {
+  display: flex;              /* Use flexbox to lay out children side-by-side */
+  flex-wrap: wrap;            /* Allow wrapping on small screens (like mobile) */
+  gap: 40px;                  /* Adds space between the left and right blocks */
+  padding: 40px 20px;         /* Space around the whole section (top/bottom, left/right) */
+  justify-content: space-between;  /* Spread content so they stay on opposite sides */
+}
+
+/* 🧱 These are the left and right columns */
+.projects-left,
+.projects-right {
+  flex: 1 1 45%;              /* Each takes 45% of the width, with some flexibility */
+  min-width: 300px;           /* Don’t shrink too much even on small screens */
+}
+
+/* 🔠 Headings inside left and right sections */
+.projects-left h2,
+.projects-right h2 {
+  font-size: 28px;            /* Make headings big and bold */
+  font-weight: 800;           /* Very bold text */
+  letter-spacing: 1px;        /* Slight spacing between letters */
+  margin-bottom: 16px;        /* Space below each heading */
+}
+
+/* 📋 Styling bullet points (like Proposed Flagship Projects list) */
+.projects-section ul {
+  padding-left: 20px;         /* Indent the bullet list */
+  margin-top: 0;              /* Remove top gap above the list */
+}
+
+/* 📝 Style for all normal paragraph text */
+.projects-section p {
+  font-size: 16px;            /* Medium-sized readable text */
+  line-height: 1.6;           /* Space between lines so it's easy to read */
+}
