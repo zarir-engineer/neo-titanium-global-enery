@@ -4,22 +4,29 @@
     <meta charset="UTF-8">
     <title>{{ page.title }} | {{ site.title }}</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="{{ site.baseurl }}/assets/style.css | relative_url }}">
+
+    <!-- ✅ Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet">
+
+    <!-- ✅ Correct stylesheets (make sure they exist in assets/css/) -->
     <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/main.css">
     <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/project.css">
     <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/services.css">
   </head>
+
   <body>
+    <!-- 🌄 Hero image and header nav -->
     <div class="hero">
       <img src="{{ site.baseurl }}/assets/images/main-top-half.jpg" alt="Hero image" class="hero-img">
       {% include header.html %}
     </div>
 
+    <!-- 🧱 Page Content -->
     <main class="page-content">
       {{ content }}
     </main>
 
+    <!-- 🦶 Footer -->
     {% include footer.html %}
   </body>
 </html>
