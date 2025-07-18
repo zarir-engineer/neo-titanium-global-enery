@@ -32,3 +32,4 @@ _site/feed.xml
 # Ignore all .xml files (like .idea config files)
 .idea/*.xml
 .idea/misc.xml
+.idea/misc.xml
