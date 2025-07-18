@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="54afe937-80a1-4daa-90fb-1ce37c870819" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/_layouts/default.html" beforeDir="false" afterPath="$PROJECT_DIR$/_layouts/default.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/about/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/about/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/assets/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/_site/assets/css/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/contact-us/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/contact-us/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/partners/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/partners/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/projects/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/projects/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/services/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/services/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/team/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/team/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bundle/ruby/3.0.0/extensions/x86_64-linux/3.0.0/eventmachine-1.2.7/gem_make.out" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/bundle/ruby/3.0.0/extensions/x86_64-linux/3.0.0/eventmachine-1.2.7/gem_make.out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bundle/ruby/3.0.0/extensions/x86_64-linux/3.0.0/eventmachine-1.2.7/mkmf.log" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/bundle/ruby/3.0.0/extensions/x86_64-linux/3.0.0/eventmachine-1.2.7/mkmf.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bundle/ruby/3.0.0/extensions/x86_64-linux/3.0.0/ffi-1.17.2/gem_make.out" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/bundle/ruby/3.0.0/extensions/x86_64-linux/3.0.0/ffi-1.17.2/gem_make.out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bundle/ruby/3.0.0/extensions/x86_64-linux/3.0.0/http_parser.rb-0.8.0/gem_make.out" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/bundle/ruby/3.0.0/extensions/x86_64-linux/3.0.0/http_parser.rb-0.8.0/gem_make.out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bundle/ruby/3.0.0/gems/eventmachine-1.2.7/ext/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/bundle/ruby/3.0.0/gems/eventmachine-1.2.7/ext/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bundle/ruby/3.0.0/gems/eventmachine-1.2.7/ext/fastfilereader/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/bundle/ruby/3.0.0/gems/eventmachine-1.2.7/ext/fastfilereader/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bundle/ruby/3.0.0/gems/ffi-1.17.2/ext/ffi_c/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/bundle/ruby/3.0.0/gems/ffi-1.17.2/ext/ffi_c/Makefile" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "git-widget-placeholder": "feature/sample-01"
+  }
+}]]></component>
+  <component name="TaskManager">
+    <servers />
+  </component>
+</project>

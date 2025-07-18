@@ -1,47 +1,85 @@
 .hero {
   position: relative;
   width: 100%;
-  height: 500px; /* ⬅️ Adjust height as needed */
-  overflow: hidden;
+  height: 500px; /* ⬅️ height of the full-width hero banner */
+  overflow: hidden; /* ⬅️ hides anything that spills outside the box */
 }
 
 .hero-img {
   width: 100%;
   height: 100%;
-  object-fit: cover;     /* ⬅️ This keeps it full-width and cropped nicely */
+  object-fit: cover;     /* ⬅️ fills the hero space while cropping the edges nicely */
   display: block;
 }
 
 .navbar {
-  position: absolute;
+  position: absolute;    /* ⬅️ floats on top of hero */
   top: 0;
   left: 0;
   right: 0;
-  background: rgba(0, 0, 0, 0.4);  /* transparent overlay */
-  z-index: 10;
+  background: rgba(0, 0, 0, 0.0);  /* semi-transparent dark bar */
+  z-index: 10;           /* ⬅️ makes sure it's above the hero image */
+  padding: 0 2rem;       /* ⬅️ adds some left-right breathing room */
 }
 
 .navbar-inner {
-  display: flex;
-  justify-content: flex-start;  /* ✅ Align everything left first */
-  align-items: center;
-  padding: 20px 40px;
-  margin: 0 40px;
+  display: flex;                     /* ⬅️ places logo and nav side-by-side */
+  justify-content: flex-start;      /* ⬅️ aligns content to the left */
+  align-items: center;              /* ⬅️ vertically centers content */
+  padding: 20px 40px;               /* ⬅️ more breathing room */
+  margin: 0 40px;                   /* ⬅️ centers navbar block a bit */
   border-bottom: 2px solid rgba(255, 255, 255, 0.7);
-  gap: 20px;  /* ⬅️ This controls the space between logo-text and menu */
+  gap: 20px;                        /* ⬅️ space between logo and nav */
 }
+
+.navbar-inner nav {
+  flex-grow: 1;
+}
+
+.nav-links {
+  display: flex;
+  justify-content: flex-end;     /* aligns menu to the right */
+  align-items: center;
+  list-style: none;
+  flex-wrap: nowrap;             /* ⛔ NO wrapping! */
+  overflow-x: auto;              /* lets it scroll if needed */
+  gap: clamp(6px, 1.5vw, 16px);  /* dynamic spacing */
+  padding: 0;
+  margin: 0;
+}
+
+.nav-links li a {
+  color: white;
+  text-decoration: none;
+  font-size: clamp(12px, 1.4vw, 20px); /* responsive text */
+  font-weight: 600;
+  padding: clamp(4px, 0.5vw, 10px) clamp(8px, 1vw, 14px);
+  white-space: nowrap;                /* ⛔ no line breaks */
+  transition: background 0.3s ease;
+}
+
+.nav-links li a:hover {
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 4px;
+}
+
+
+@media (max-width: 768px) {
+  .nav-links {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
+
 
 /* Logo + Text container */
 .brand {
   display: flex;
   align-items: center;
   gap: 12px;
-  margin-right: 60px; /* Manually push nav away */
+  margin-right: 60px;  /* ⬅️ space between logo and links */
 }
 
-.navbar-inner nav {
-  flex-shrink: 0;       /* Prevent nav from collapsing */
-}
 
 .logo-img {
   margin-left: -70px;
@@ -60,28 +98,6 @@
   white-space: nowrap;
 }
 
-/* Navigation links */
-.nav-links {
-  display: flex;
-  gap: 24px;
-  list-style: none;
-  margin: 0;
-  padding: 0;
-}
-
-.nav-links li a {
-  color: white;
-  text-decoration: none;
-  font-size: 26px;
-  font-weight: 600;
-  padding: 6px 10px;
-  transition: background 0.3s ease;
-}
-
-.nav-links li a:hover {
-  background: rgba(255, 255, 255, 0.2);
-  border-radius: 4px;
-}
 
 .who-we-are {
   background-color: black;
