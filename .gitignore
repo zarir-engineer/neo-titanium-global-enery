@@ -28,3 +28,7 @@ ehthumbs.db
 *.sublime-workspace
 *.sublime-project
 _site/feed.xml
+
+# Ignore all .xml files (like .idea config files)
+.idea/*.xml
+.idea/misc.xml
